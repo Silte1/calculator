@@ -26,7 +26,7 @@ const init = () => {
                 e.target.value = ""
             });
 
-            field.addEventListener('change', e => {
+            field.addEventListener('keyup', e => {
                 result.value = calculator(
                     operation,
                     Number(input[0].value),
