@@ -1,0 +1,7 @@
+#title{
+    font-size: clamp(20px, 5vw, 40px);
+}
+
+h2, legend{
+    font-size: clamp(18px, 4.5vw, 38px);
+}
